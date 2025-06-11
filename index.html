@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Viga&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -17,10 +20,10 @@
         <header>
             <img src="./img/logo.png" alt="">
             <nav>
-                <a class="nav-link" href="#">HOME</a>
-                <a class="nav-link" href="#">LOCATIONS</a>
-                <a class="nav-link" href="#">ABOUT</a>
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link hide-mobile" href="#">HOME</a>
+                <a class="nav-link hide-mobile" href="#">LOCATIONS</a>
+                <a class="nav-link hide-mobile" href="#">ABOUT</a>
+                <a class="nav-link hide-mobile" href="#">CONTACT</a>
                 <img src="./img/facebook_white.png" alt="" class="nav-img">
                 <img src="./img/instagram_white.png" alt="" class="nav-img">
                 <img src="./img/twitter_white.png" alt="" class="nav-img">
@@ -65,17 +68,25 @@
     </section>
 
     <section class="section-playlist">
-     FOLLOW AND LISTEN TO THIS PLAYLIST <br> TO GET PREPARED FOR THE SHOW
+        FOLLOW AND LISTEN TO THIS PLAYLIST <br> TO GET PREPARED FOR THE SHOW
     </section>
+
     <section class="video-section">
     </section>
 
     <footer>
-        <div class="half-width fs-medium">SUBSCRIPE 6 FOLLOW TO GET UPDATES FROM ROCK MOUNTAIN</div>
-        <div class="half-width">
-            <div class="center"> <img class="footer-social-media-icon" src="./img/Facebook.png" alt="Facebook">
+        <div class="half-width full-width-mobile footer-left">SUBSCRIPE & FOLLOW TO GET UPDATES FROM ROCK MOUNTAIN</div>
+        <div class="half-width full-width-mobile">
+            <div class="footer-center">
+                <img class="footer-social-media-icon" src="./img/Facebook.png" alt="Facebook">
                 <img class="footer-social-media-icon" src="./img/ins.png" alt="Instagram">
-                <img class="footer-social-media-icon" src="./img/twitter.png" alt="Twitter"> </div>
+                <img class="footer-social-media-icon" src="./img/twitter.png" alt="Twitter">
+            </div>
+
+            <form>
+                <input required type="email" placeholder="Email Adress">
+                <button class="button button-footer">SUBMIT</button>
+            </form>
         </div>
     </footer>
 </body>
